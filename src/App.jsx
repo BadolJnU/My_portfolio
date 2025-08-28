@@ -12,6 +12,7 @@ import Footer from './components/Footer'
 import Education from './components/Education'
 import Blogs from './components/Blogs'
 import { Analytics } from "@vercel/analytics/react"
+import Publication from './components/Publication';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
               <Education/>
               <Technologies/>
               <Experience/>
+              <Publication/>
               <Projects/>
               {/* <Blogs/> */}
               <Contact/>

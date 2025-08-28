@@ -14,6 +14,22 @@ I’ve gained practical experience as a Software Developer at Mercor, where I wo
 
 I also participate in extracurricular activities and hold certifications like Google Data Analyst.`;
 
+
+export const PUBLICATIONS = [
+  {
+    title: "Performance Analysis and Mitigating the Challenges of Constraint-based Local Search,",
+    authors: "A. R. Anik, K. Islam and M. M. A. Polash",
+    conference: "2019 Joint 8th International Conference on Informatics, Electronics & Vision (ICIEV) and 2019 3rd International Conference on Imaging, Vision & Pattern Recognition (icIVPR), Spokane, WA, USA, 2019",
+    link: "https://ieeexplore.ieee.org/document/8858506"    
+  },
+  {
+    title: "Performance Analysis of Deep Neural Network Models for Weather Forecasting in Bangladesh",
+    authors: "Badal, M.K.I., Saha",
+    conference: "Proceedings of the Third International Conference on Trends in Computational and Cognitive Engineering. Lecture Notes in Networks and Systems, vol 348. Springer, Singapore",
+    link: "https://link.springer.com/chapter/10.1007/978-981-16-7597-3_7"
+  }
+]
+
 export const EXPERIENCES = [
   {
     year: "Apr 2024 - Jun 2025",
