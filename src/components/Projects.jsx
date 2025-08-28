@@ -26,8 +26,7 @@ const Projects = () => {
                             <span key = {index} className='mr-2 rounded-md bg-neutral-800 text-purple-500 px-2 py-1 text-sm font-medium'>{tech}</span>
                         ))}
                         <div className='mb-2 mt-2 pt-2'> 
-                        <a href={project.github} className='mr-2 rounded-md bg-green-900 text-white px-2 py-1'>Github</a>
-                        <a href={project.live} className='mr-2 rounded bg-cyan-950 text-white px-2 py-1'>Live</a>
+                        <a href={project.github} className='mr-2 rounded-md bg-green-900 text-white px-2 py-1'>Source Code</a>
                         </div>
                         
                     </motion.div>

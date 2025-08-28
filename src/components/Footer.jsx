@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaOrcid } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -26,21 +26,21 @@ const Footer = () => {
                         animate={{ scale: [1, 1.2, 1] }} 
                         transition={{ repeat: Infinity, duration: 1.5 }}>
                         ❤
-                    </motion.span> by Priyanshu 
+                    </motion.span> by Badal
                 </p>
                 
                 <div className="flex justify-center space-x-6 text-white mb-6">
-                <a href="https://www.linkedin.com/in/priyanshu-panda/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/khirul-islam-badol-38687ab8/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className='text-white transition ease-in-out delay-100 hover:-translate-y-1' size={24}></FaLinkedin>
               </a>
-              <a href="https://leetcode.com/u/its_priyanshu/" target="_blank" rel="noopener noreferrer"> 
+              <a href="https://leetcode.com/u/badolcsejnu/" target="_blank" rel="noopener noreferrer"> 
                 <LiaExternalLinkAltSolid className='text-white transition ease-in-out delay-100 hover:-translate-y-1 ' size={24}></LiaExternalLinkAltSolid>
                 </a>
-                <a href="https://www.instagram.com/priyanshuupanda__" target="_blank" rel="noopener noreferrer"> 
-                <FaInstagram className='text-white transition ease-in-out delay-100 hover:-translate-y-1' size={24}></FaInstagram></a>
-                <a href="https://github.com/thegeek36" target="_blank" rel="noopener noreferrer"> 
+                <a href="https://orcid.org/my-orcid?orcid=0009-0003-6379-5939" target="_blank" rel="noopener noreferrer"> 
+                <FaOrcid className='text-white transition ease-in-out delay-100 hover:-translate-y-1' size={24}></FaOrcid></a>
+                <a href="https://github.com/BadolJnU" target="_blank" rel="noopener noreferrer"> 
                 <FaGithub className='text-white transition ease-in-out delay-100 hover:-translate-y-1' size={24}></FaGithub> </a>
-                <a href="https://x.com/that_tallguy_1" target="_blank" rel="noopener noreferrer"> 
+                <a href="#" target="_blank" rel="noopener noreferrer"> 
                 <BsTwitterX className='text-white transition ease-in-out delay-100 hover:-translate-y-2' size={24}></BsTwitterX> </a>
                 </div>
 
@@ -51,7 +51,7 @@ const Footer = () => {
                 </button>
 
                 <p className="text-white text-sm">
-                    © {currentYear} Priyanshu Panda. All Rights Reserved.
+                    © {currentYear} Md Khirul Islam Badal. All Rights Reserved.
                 </p>
             </motion.div>
         </footer>

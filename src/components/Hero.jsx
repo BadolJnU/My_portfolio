@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants';
-import profilePic from "../assets/hero-1.JPG";
+import profilePic from "../assets/pic_mine.jpg";
 import santaHat from "../assets/santahat.png";
 import { motion } from "framer-motion"
 
@@ -24,13 +24,13 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
              className='pb-14 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl hover:underline decoration-violet-500 transition duration-700 ease-in-out'>
-              Priyanshu Panda
+              Md Khirul Islam Badal
             </motion.h1>
             
             <motion.span variants={container(1)}
             initial="hidden"
             animate="visible" className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'>
-              Software Developer
+              Researcher, Software Developer
             </motion.span>
             <motion.p
               variants={container(1.5)}

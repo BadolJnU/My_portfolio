@@ -33,6 +33,7 @@ const Education = () => {
           >
             <h4 className='mb-2 font-semibold'>{education.degree}</h4>
             <h6 className='mb-2 font-semibold text-sm'>{education.institution}</h6>
+            <h4 className='mb-2 font-bold'>Result: {education.result}</h4>
             <p className='mb-4 text-neutral-400 text-justify'>{education.description}</p>
           </motion.div>
         </div>
